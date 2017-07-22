@@ -1,0 +1,95 @@
+==1340== Memcheck, a memory error detector
+==1340== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1340== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==1340== Command: ./aes_big_enc.out
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x400947: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x40095A: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x40096D: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x40097F: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x400995: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x4009A8: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x4009BB: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x4009CD: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x4009EC: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x4009FE: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x400A09: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x400A22: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x400A29: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x400A3A: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x400A49: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== Use of uninitialised value of size 8
+==1340==    at 0x400A5A: br_aes_big_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_big_enc.out)
+==1340==    by 0x400835: do_one_computation (aes_big_enc.c:27)
+==1340==    by 0x4008DD: main (aes_big_enc.c:45)
+==1340== 
+==1340== 
+==1340== HEAP SUMMARY:
+==1340==     in use at exit: 0 bytes in 0 blocks
+==1340==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==1340== 
+==1340== All heap blocks were freed -- no leaks are possible
+==1340== 
+==1340== For counts of detected and suppressed errors, rerun with: -v
+==1340== Use --track-origins=yes to see where uninitialised values come from
+==1340== ERROR SUMMARY: 16 errors from 16 contexts (suppressed: 0 from 0)

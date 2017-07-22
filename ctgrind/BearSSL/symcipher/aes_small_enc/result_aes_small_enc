@@ -1,0 +1,95 @@
+==2705== Memcheck, a memory error detector
+==2705== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2705== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2705== Command: ./aes_small_enc.out
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x401056: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x401064: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x40106F: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x40107D: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x40108B: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x40109D: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x4010A9: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x4010B4: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x4010BE: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x4010D0: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x4010DB: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x4010E5: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x4010F1: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x401102: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x40110D: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== Use of uninitialised value of size 8
+==2705==    at 0x401118: br_aes_small_encrypt (in /home/ubuntu/shared/ctgrind_old/aes_small_enc.out)
+==2705==    by 0x400835: do_one_computation (aes_small_enc.c:27)
+==2705==    by 0x4008DD: main (aes_small_enc.c:45)
+==2705== 
+==2705== 
+==2705== HEAP SUMMARY:
+==2705==     in use at exit: 0 bytes in 0 blocks
+==2705==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==2705== 
+==2705== All heap blocks were freed -- no leaks are possible
+==2705== 
+==2705== For counts of detected and suppressed errors, rerun with: -v
+==2705== Use --track-origins=yes to see where uninitialised values come from
+==2705== ERROR SUMMARY: 16 errors from 16 contexts (suppressed: 0 from 0)

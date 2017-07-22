@@ -1,0 +1,20 @@
+<functions>
+    <sources>
+
+    <function>
+        <name>crypto_stream_aes128ctr</name>    <!--AES 128 CTR mode-->
+        <return>false</return>
+        <public>
+            <parameter>out</parameter>          <!--Output-->
+            <parameter>len</parameter>          <!--Length-->
+            <parameter>inlen</parameter>        <!--Input Length-->
+            <parameter>outlen</parameter>       <!--Output Length-->
+        </public>
+        <secret>
+            <parameter>k</parameter>      <!--Key-->
+            <parameter>n</parameter>      <!--Data-->
+        </secret>
+    </function>
+
+    </sources>
+</functions>

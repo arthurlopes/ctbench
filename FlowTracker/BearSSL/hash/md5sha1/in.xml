@@ -1,0 +1,28 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_md5sha1_update</name>
+            <return>false</return>
+            <public>
+                <parameter>len</parameter>
+            </public>
+            <secret>
+                <parameter>cc</parameter>
+                <parameter>data</parameter>
+            </secret>
+        </function>
+        
+        <function>
+            <name>br_md5sha1_out</name>
+            <return>false</return>
+            <public>
+                <parameter>dst</parameter>
+            </public>
+            <secret>
+                <parameter>cc</parameter>
+            </secret>
+        </function>
+
+    </sources>
+</functions>

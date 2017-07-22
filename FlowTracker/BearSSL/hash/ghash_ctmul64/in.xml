@@ -1,0 +1,16 @@
+<functions>
+    <sources>
+        
+        <function>
+            <name>br_ghash_ctmul64</name>
+            <return>false</return>
+            <public>
+                
+            </public>
+            <secret>
+                <parameter>data</parameter>     <!--Data-->
+            </secret>
+        </function>
+        
+    </sources>
+</functions>

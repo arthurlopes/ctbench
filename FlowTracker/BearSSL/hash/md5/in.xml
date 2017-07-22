@@ -1,0 +1,16 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_md5_round</name>
+            <return>false</return>
+            <public>
+                <parameter>val</parameter>      <!--Value for the md5-->
+            </public>
+            <secret>
+                <parameter>buf</parameter>      <!--Data buffer-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

@@ -1,0 +1,18 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_rsa_ssl_decrypt</name>
+            <return>false</return>
+            <public>
+                <parameter>len</parameter>
+            </public>
+            <secret>
+                <parameter>core</parameter>
+                <parameter>sk</parameter>
+                <parameter>data</parameter>
+            </secret>
+        </function>
+
+    </sources>
+</functions>

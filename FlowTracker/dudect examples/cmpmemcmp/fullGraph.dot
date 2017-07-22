@@ -1,0 +1,61 @@
+digraph "DFG for 'Grafo'  "{
+label="DFG for 'Grafo' ";
+node_1[shape=octagon,style=solid,label="alloca"]
+node_0[shape=ellipse,style=dashed,label="Memory 1"]
+"node_1"->"node_0"
+node_2[shape=box,style=solid,label="1"]
+"node_2"->"node_1"
+node_13[shape=octagon,style=solid,label="bitcast"]
+"node_0"->"node_13"
+node_14[shape=doubleoctagon,style=solid,label="Call llvm.memcpy.p0i8.p0i8.i64"]
+"node_0"->"node_14"
+node_20[shape=octagon,style=solid,label="getelementptr"]
+"node_0"->"node_20"
+node_23[shape=doubleoctagon,style=solid,label="Call memcmp"]
+"node_0"->"node_23"
+node_3[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+node_4[shape=ellipse,style=solid,label=""]
+"node_4"->"node_3"
+node_5[shape=box,style=solid,label="0"]
+"node_5"->"node_3"
+node_6[shape=ellipse,style=solid,label=""]
+"node_6"->"node_3"
+node_7[shape=ellipse,style=solid,label=""]
+"node_7"->"node_3"
+node_9[shape=doubleoctagon,style=solid,label="Call llvm.dbg.declare"]
+"node_7"->"node_9"
+node_8[shape=box,style=solid,label="Const:llvm.dbg.value"]
+"node_8"->"node_3"
+node_10[shape=ellipse,style=solid,label=""]
+"node_10"->"node_9"
+node_11[shape=ellipse,style=solid,label=""]
+"node_11"->"node_9"
+node_12[shape=box,style=solid,label="Const:llvm.dbg.declare"]
+"node_12"->"node_9"
+"node_13"->"node_0"
+node_15[shape=box,style=solid,label="Const:"]
+"node_15"->"node_14"
+node_16[shape=box,style=solid,label="16"]
+"node_16"->"node_14"
+"node_16"->"node_23"
+node_17[shape=box,style=solid,label="16"]
+"node_17"->"node_14"
+node_18[shape=box,style=solid,label="0"]
+"node_18"->"node_14"
+node_19[shape=box,style=solid,label="Const:llvm.memcpy.p0i8.p0i8.i64"]
+"node_19"->"node_14"
+"node_20"->"node_0"
+node_21[shape=box,style=solid,label="0"]
+"node_21"->"node_20"
+node_22[shape=ellipse,style=solid,label="call"]
+node_27[shape=octagon,style=solid,label="trunc"]
+"node_22"->"node_27"
+"node_23"->"node_22"
+node_24[shape=ellipse,style=dashed,label="Memory 2"]
+"node_24"->"node_23"
+node_25[shape=box,style=solid,label="Const:memcmp"]
+"node_25"->"node_23"
+node_26[shape=ellipse,style=solid,label="conv"]
+"node_27"->"node_26"
+}
+

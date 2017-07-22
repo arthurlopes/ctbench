@@ -1,0 +1,17 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_rsa_i15_private</name>
+            <return>false</return>
+            <public>
+                
+            </public>
+            <secret>
+                <parameter>x</parameter>         <!--operand to exponentiate-->
+                <parameter>sk</parameter>        <!--RSA private key-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

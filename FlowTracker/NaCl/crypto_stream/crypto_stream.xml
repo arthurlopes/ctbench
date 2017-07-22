@@ -1,0 +1,32 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>crypto_stream_xsalsa20_ref</name>
+            <return>false</return>
+            <public>
+                <parameter>n</parameter>
+                <parameter>clen</parameter>
+            </public>
+            <secret>
+                <parameter>c</parameter>
+                <parameter>k</parameter>
+            </secret>
+        </function>
+
+        <function>
+            <name>crypto_stream_xsalsa20_ref_xor</name>
+            <return>false</return>
+            <public>
+                <parameter>n</parameter>
+                <parameter>mlen</parameter>
+                <parameter>c</parameter>
+            </public>
+            <secret>
+                <parameter>m</parameter>
+                <parameter>k</parameter>
+            </secret>
+        </function>
+
+    </sources>
+</functions>

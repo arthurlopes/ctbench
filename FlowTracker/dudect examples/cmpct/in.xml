@@ -1,0 +1,17 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>util_cmp_const</name>         <!--Compare function-->
+            <return>false</return>
+            <public>
+                <parameter>size</parameter>     <!--Data size-->
+            </public>
+            <secret>
+                <parameter>a</parameter>        <!--First array-->
+                <parameter>b</parameter>        <!--Second array-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

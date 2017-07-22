@@ -1,0 +1,17 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>crypto_hash_sha512_ref</name>
+            <return>false</return>
+            <public>
+                <parameter>out</parameter>      <!--Output buffer-->
+                <parameter>len</parameter>      <!--Length-->
+            </public>
+            <secret>
+                <parameter>in</parameter>       <!--Input-->
+            </secret>
+        </function>
+        
+    </sources>
+</functions>

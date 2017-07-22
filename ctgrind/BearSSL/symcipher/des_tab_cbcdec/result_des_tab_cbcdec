@@ -1,0 +1,63 @@
+==3192== Memcheck, a memory error detector
+==3192== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3192== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3192== Command: ./des_tab_cbcdec.out
+==3192== 
+==3192== Use of uninitialised value of size 8
+==3192==    at 0x400B1E: br_des_tab_process_block (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x4009F5: br_des_tab_cbcdec_run (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x40083C: do_one_computation (des_tab_cbcdec.c:28)
+==3192==    by 0x4008F8: main (des_tab_cbcdec.c:47)
+==3192== 
+==3192== Use of uninitialised value of size 8
+==3192==    at 0x400B25: br_des_tab_process_block (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x4009F5: br_des_tab_cbcdec_run (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x40083C: do_one_computation (des_tab_cbcdec.c:28)
+==3192==    by 0x4008F8: main (des_tab_cbcdec.c:47)
+==3192== 
+==3192== Use of uninitialised value of size 8
+==3192==    at 0x400B3A: br_des_tab_process_block (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x4009F5: br_des_tab_cbcdec_run (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x40083C: do_one_computation (des_tab_cbcdec.c:28)
+==3192==    by 0x4008F8: main (des_tab_cbcdec.c:47)
+==3192== 
+==3192== Use of uninitialised value of size 8
+==3192==    at 0x400B44: br_des_tab_process_block (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x4009F5: br_des_tab_cbcdec_run (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x40083C: do_one_computation (des_tab_cbcdec.c:28)
+==3192==    by 0x4008F8: main (des_tab_cbcdec.c:47)
+==3192== 
+==3192== Use of uninitialised value of size 8
+==3192==    at 0x400B62: br_des_tab_process_block (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x4009F5: br_des_tab_cbcdec_run (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x40083C: do_one_computation (des_tab_cbcdec.c:28)
+==3192==    by 0x4008F8: main (des_tab_cbcdec.c:47)
+==3192== 
+==3192== Use of uninitialised value of size 8
+==3192==    at 0x400B77: br_des_tab_process_block (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x4009F5: br_des_tab_cbcdec_run (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x40083C: do_one_computation (des_tab_cbcdec.c:28)
+==3192==    by 0x4008F8: main (des_tab_cbcdec.c:47)
+==3192== 
+==3192== Use of uninitialised value of size 8
+==3192==    at 0x400B8C: br_des_tab_process_block (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x4009F5: br_des_tab_cbcdec_run (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x40083C: do_one_computation (des_tab_cbcdec.c:28)
+==3192==    by 0x4008F8: main (des_tab_cbcdec.c:47)
+==3192== 
+==3192== Use of uninitialised value of size 8
+==3192==    at 0x400B96: br_des_tab_process_block (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x4009F5: br_des_tab_cbcdec_run (in /home/ubuntu/shared/ctgrind_old/des_tab_cbcdec.out)
+==3192==    by 0x40083C: do_one_computation (des_tab_cbcdec.c:28)
+==3192==    by 0x4008F8: main (des_tab_cbcdec.c:47)
+==3192== 
+==3192== 
+==3192== HEAP SUMMARY:
+==3192==     in use at exit: 0 bytes in 0 blocks
+==3192==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==3192== 
+==3192== All heap blocks were freed -- no leaks are possible
+==3192== 
+==3192== For counts of detected and suppressed errors, rerun with: -v
+==3192== Use --track-origins=yes to see where uninitialised values come from
+==3192== ERROR SUMMARY: 88320 errors from 8 contexts (suppressed: 0 from 0)

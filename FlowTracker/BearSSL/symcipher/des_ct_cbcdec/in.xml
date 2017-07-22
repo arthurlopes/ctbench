@@ -1,0 +1,16 @@
+<functions>
+    <sources>
+
+        <function>
+        <name>br_des_ct_cbcdec_run</name>
+        <return>false</return>
+        <public>
+            
+        </public>
+        <secret>
+            <parameter>data</parameter>
+        </secret>
+        </function>
+
+    </sources>
+</functions>

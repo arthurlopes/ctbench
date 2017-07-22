@@ -1,0 +1,17 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_rsa_i31_private</name>
+            <return>false</return>
+            <public>
+                
+            </public>
+            <secret>
+                <parameter>sk</parameter>       <!--RSA private key-->
+                <parameter>x</parameter>        <!--operand to exponentiate-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

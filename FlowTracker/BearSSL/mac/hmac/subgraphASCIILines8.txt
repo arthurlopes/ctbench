@@ -1,0 +1,7 @@
+Vulnerability from  ' line 38 to line 49
+	 '
+Line 70
+Line 1369
+Line 1368
+Line 32
+Line 52

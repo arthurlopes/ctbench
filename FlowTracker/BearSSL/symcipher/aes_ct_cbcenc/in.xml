@@ -1,0 +1,16 @@
+<functions>
+    <sources>
+        
+        <function>
+            <name>br_aes_ct_cbcenc_run</name>
+            <return>false</return>
+            <public>
+                
+            </public>
+            <secret>
+                <parameter>data</parameter>     <!--Data-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

@@ -1,0 +1,17 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_rsa_i32_public</name>
+            <return>false</return>
+            <public>
+                <parameter>pk</parameter>       <!--RSA public key-->
+                <parameter>xlen</parameter>     <!--length-->
+            </public>
+            <secret>
+                <parameter>x</parameter>        <!--operand to exponentiate-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

@@ -1,0 +1,16 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>do_one_computation</name>         <!--Function wrap-->
+            <return>false</return>
+            <public>
+
+            </public>
+            <secret>
+                <parameter>data</parameter>         <!--Input data-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

@@ -1,0 +1,55 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>rijndaelKeySetupEnc</name>        <!--Rijndael Key setup-->
+            <return>false</return>
+            <public>
+                <parameter>rk</parameter>
+            </public>
+            <secret>
+                <parameter>cipherKey</parameter>    <!--Key-->
+                <parameter>keyBits</parameter>      <!--Key size in bits-->
+            </secret>
+        </function>
+
+        <function>
+            <name>rijndaelKeySetupDec</name>        <!--Rijndael Key setup-->
+            <return>false</return>
+            <public>
+                <parameter>rk</parameter>
+            </public>
+            <secret>
+                <parameter>cipherKey</parameter>    <!--Key-->
+                <parameter>keyBits</parameter>      <!--Key size in bits-->
+            </secret>
+        </function>
+
+        <function>
+            <name>rijndaelEncrypt</name>            <!--Rijndael Key encrypt function-->
+                <return>false</return>
+                <public>
+                    <parameter>rk</parameter>       <!--Key context-->
+                    <parameter>Nr</parameter>       <!--Number of rounds-->
+                </public>
+                <secret>
+                    <parameter>ct</parameter>       <!--Data-->
+                    <parameter>pt</parameter>       <!--Key-->
+                </secret>
+        </function>
+
+        <function>
+            <name>rijndaelDecrypt</name>            <!--Rijndael Key decrypt function-->
+            <return>false</return>
+            <public>
+                <parameter>rk</parameter>           <!--Key context-->
+                <parameter>Nr</parameter>           <!--Number of rounds-->
+            </public>
+            <secret>
+                <parameter>ct</parameter>           <!--Data-->
+                <parameter>pt</parameter>           <!--Key-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

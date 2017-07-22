@@ -1,0 +1,17 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_aes_small_decrypt</name>
+            <return>false</return>
+            <public>
+                <parameter>num_rounds</parameter>     <!--Number of rounds-->
+            </public>
+            <secret>
+                <parameter>data</parameter>           <!--Data-->
+                <parameter>skey</parameter>           <!--Secret Key-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

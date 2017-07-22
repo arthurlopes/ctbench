@@ -1,0 +1,159 @@
+digraph "DFG for 'Grafo'  "{
+label="DFG for 'Grafo' ";
+node_0[shape=ellipse,style=dashed,label="Memory 1"]
+node_22[shape=octagon,style=solid,label="getelementptr"]
+"node_0"->"node_22"
+node_25[shape=doubleoctagon,style=solid,label="Call crypto_stream_aes128ctr_beforenm"]
+"node_0"->"node_25"
+node_28[shape=octagon,style=solid,label="getelementptr"]
+"node_0"->"node_28"
+node_30[shape=doubleoctagon,style=solid,label="Call crypto_stream_aes128ctr_afternm"]
+"node_0"->"node_30"
+node_54[shape=octagon,style=solid,label="getelementptr"]
+"node_0"->"node_54"
+node_56[shape=doubleoctagon,style=solid,label="Call crypto_stream_aes128ctr_beforenm"]
+"node_0"->"node_56"
+node_57[shape=octagon,style=solid,label="getelementptr"]
+"node_0"->"node_57"
+node_59[shape=doubleoctagon,style=solid,label="Call crypto_stream_aes128ctr_xor_afternm"]
+"node_0"->"node_59"
+node_4[shape=ellipse,style=solid,label=""]
+node_3[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_4"->"node_3"
+node_5[shape=box,style=solid,label="0"]
+"node_5"->"node_3"
+node_9[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_5"->"node_9"
+node_12[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_5"->"node_12"
+node_15[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_5"->"node_15"
+node_36[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_5"->"node_36"
+node_39[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_5"->"node_39"
+node_42[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_5"->"node_42"
+node_45[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_5"->"node_45"
+node_48[shape=doubleoctagon,style=solid,label="Call llvm.dbg.value"]
+"node_5"->"node_48"
+node_6[shape=ellipse,style=solid,label=""]
+"node_6"->"node_3"
+node_1[shape=octagon,style=solid,label="alloca"]
+"node_1"->"node_0"
+node_2[shape=box,style=solid,label="1"]
+"node_2"->"node_1"
+node_35[shape=octagon,style=solid,label="alloca"]
+"node_2"->"node_35"
+node_7[shape=ellipse,style=solid,label=""]
+"node_7"->"node_3"
+"node_7"->"node_9"
+"node_7"->"node_12"
+"node_7"->"node_15"
+node_18[shape=doubleoctagon,style=solid,label="Call llvm.dbg.declare"]
+"node_7"->"node_18"
+"node_7"->"node_36"
+"node_7"->"node_39"
+"node_7"->"node_42"
+"node_7"->"node_45"
+"node_7"->"node_48"
+node_51[shape=doubleoctagon,style=solid,label="Call llvm.dbg.declare"]
+"node_7"->"node_51"
+node_8[shape=box,style=solid,label="Const:llvm.dbg.value"]
+"node_8"->"node_3"
+"node_8"->"node_9"
+"node_8"->"node_12"
+"node_8"->"node_15"
+"node_8"->"node_36"
+"node_8"->"node_39"
+"node_8"->"node_42"
+"node_8"->"node_45"
+"node_8"->"node_48"
+node_10[shape=ellipse,style=solid,label=""]
+"node_10"->"node_9"
+node_11[shape=ellipse,style=solid,label=""]
+"node_11"->"node_9"
+node_13[shape=ellipse,style=solid,label=""]
+"node_13"->"node_12"
+node_14[shape=ellipse,style=solid,label=""]
+"node_14"->"node_12"
+node_16[shape=ellipse,style=solid,label=""]
+"node_16"->"node_15"
+node_17[shape=ellipse,style=solid,label=""]
+"node_17"->"node_15"
+node_19[shape=ellipse,style=solid,label=""]
+"node_19"->"node_18"
+node_20[shape=ellipse,style=solid,label=""]
+"node_20"->"node_18"
+node_21[shape=box,style=solid,label="Const:llvm.dbg.declare"]
+"node_21"->"node_18"
+"node_21"->"node_51"
+"node_22"->"node_0"
+node_23[shape=box,style=solid,label="0"]
+"node_23"->"node_22"
+"node_23"->"node_28"
+"node_23"->"node_54"
+"node_23"->"node_57"
+node_24[shape=ellipse,style=solid,label="call"]
+"node_25"->"node_24"
+node_26[shape=ellipse,style=dashed,label="Memory 2"]
+"node_26"->"node_25"
+"node_26"->"node_56"
+node_27[shape=box,style=solid,label="Const:crypto_stream_aes128ctr_beforenm"]
+"node_27"->"node_25"
+"node_27"->"node_56"
+"node_28"->"node_0"
+node_29[shape=ellipse,style=solid,label="call2"]
+"node_30"->"node_29"
+node_31[shape=ellipse,style=dashed,label="Memory 3"]
+"node_31"->"node_30"
+node_32[shape=ellipse,style=solid,label="outlen"]
+"node_32"->"node_30"
+node_33[shape=ellipse,style=dashed,label="Memory 4"]
+"node_33"->"node_30"
+node_34[shape=box,style=solid,label="Const:crypto_stream_aes128ctr_afternm"]
+"node_34"->"node_30"
+"node_35"->"node_0"
+node_37[shape=ellipse,style=solid,label=""]
+"node_37"->"node_36"
+node_38[shape=ellipse,style=solid,label=""]
+"node_38"->"node_36"
+node_40[shape=ellipse,style=solid,label=""]
+"node_40"->"node_39"
+node_41[shape=ellipse,style=solid,label=""]
+"node_41"->"node_39"
+node_43[shape=ellipse,style=solid,label=""]
+"node_43"->"node_42"
+node_44[shape=ellipse,style=solid,label=""]
+"node_44"->"node_42"
+node_46[shape=ellipse,style=solid,label=""]
+"node_46"->"node_45"
+node_47[shape=ellipse,style=solid,label=""]
+"node_47"->"node_45"
+node_49[shape=ellipse,style=solid,label=""]
+"node_49"->"node_48"
+node_50[shape=ellipse,style=solid,label=""]
+"node_50"->"node_48"
+node_52[shape=ellipse,style=solid,label=""]
+"node_52"->"node_51"
+node_53[shape=ellipse,style=solid,label=""]
+"node_53"->"node_51"
+"node_54"->"node_0"
+node_55[shape=ellipse,style=solid,label="call"]
+"node_56"->"node_55"
+"node_57"->"node_0"
+node_58[shape=ellipse,style=solid,label="call2"]
+"node_59"->"node_58"
+node_60[shape=ellipse,style=dashed,label="Memory 5"]
+"node_60"->"node_59"
+node_61[shape=ellipse,style=dashed,label="Memory 6"]
+"node_61"->"node_59"
+node_62[shape=ellipse,style=solid,label="inlen"]
+"node_62"->"node_59"
+node_63[shape=ellipse,style=dashed,label="Memory 7"]
+"node_63"->"node_59"
+node_64[shape=box,style=solid,label="Const:crypto_stream_aes128ctr_xor_afternm"]
+"node_64"->"node_59"
+}
+

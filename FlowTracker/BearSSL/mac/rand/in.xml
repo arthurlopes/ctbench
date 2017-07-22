@@ -1,0 +1,30 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_hmac_drbg_generate</name>
+            <return>false</return>
+            <public>
+                <parameter>len</parameter>        <!--Length-->
+            </public>
+            <secret>
+                <parameter>out</parameter>        <!--output-->
+                <parameter>ctx</parameter>
+            </secret>
+        </function>
+
+        <function>
+            <name>br_hmac_drbg_update</name>
+            <return>false</return>
+            <public>
+                <parameter>len</parameter>      <!--Length-->
+            </public>
+            <secret>
+                <parameter>ctx</parameter>
+                <parameter>seed</parameter>     <!--secret seed-->
+                </secret>
+            </function>
+
+
+    </sources>
+</functions>

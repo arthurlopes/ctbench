@@ -1,0 +1,11 @@
+#include <stdlib.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <string.h>
+
+
+uint8_t do_one_computation(uint8_t *data) {
+  uint8_t secret[16] = {0x2b,0x7e,0x15,0x16,0x28,0xae,0xd2,0xa6,0xab,0xf7,0x15,0x88,0x09,0xcf,0x4f,0x3c};
+  //uint8_t secret[16] = {0};
+  return (uint8_t)memcmp(secret, data, 16);
+}

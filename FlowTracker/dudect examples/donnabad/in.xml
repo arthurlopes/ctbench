@@ -1,0 +1,17 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>curve25519_donna</name>           <!--Curve25519 implemenatation-->
+            <return>false</return>
+            <public>
+                <parameter>mypublic</parameter>     <!--Public key-->
+                <parameter>basepoint</parameter>    <!--Base point-->
+            </public>
+            <secret>
+                <parameter>secret</parameter>       <!--Secret key-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

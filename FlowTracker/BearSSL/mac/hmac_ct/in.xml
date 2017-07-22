@@ -1,0 +1,17 @@
+<functions>
+    <sources>
+        
+        <function>
+            <name>br_hmac_outCT</name>
+            <return>false</return>
+            <public>
+            
+            </public>
+            <secret>
+                <parameter>2</parameter>
+            </secret>
+        </function>
+
+
+    </sources>
+</functions>

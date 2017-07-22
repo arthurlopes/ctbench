@@ -1,0 +1,29 @@
+<functions>
+    <sources>
+        
+        <function>
+            <name>crypto_hashblocks_sha512_ref</name>
+            <return>false</return>
+            <public>
+                <parameter>statebytes</parameter>      <!--State-->
+                <parameter>inlen</parameter>      <!--Length-->
+            </public>
+            <secret>
+                <parameter>in</parameter>       <!--Input-->
+            </secret>
+        </function>
+        
+        <function>
+            <name>crypto_hashblocks_sha512_inplace</name>
+            <return>false</return>
+            <public>
+                <parameter>statebytes</parameter>      <!--State-->
+                <parameter>inlen</parameter>      <!--Length-->
+            </public>
+            <secret>
+                <parameter>in</parameter>       <!--Input-->
+            </secret>
+        </function>
+        
+    </sources>
+</functions>

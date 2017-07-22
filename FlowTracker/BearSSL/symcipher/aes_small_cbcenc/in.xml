@@ -1,0 +1,18 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_aes_small_cbcenc_run</name>
+            <return>false</return>
+            <public>
+                <parameter>len</parameter>     <!--Length-->
+                <parameter>iv</parameter>      <!--IV-->
+            </public>
+            <secret>
+                <parameter>data</parameter>    <!--Data-->
+                <parameter>ctx</parameter>     <!--Key context-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

@@ -1,0 +1,19 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_aes_ct_ctr_run</name>     <!--AES in constant time CTR mode-->
+            <return>false</return>
+            <public>
+                <parameter>len</parameter>     <!--Length-->
+                <parameter>iv</parameter>      <!--IV-->
+                <parameter>cc</parameter>      <!--block counter-->
+            </public>
+            <secret>
+                <parameter>data</parameter>    <!--Data-->
+                <parameter>ctx</parameter>     <!--key context-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>

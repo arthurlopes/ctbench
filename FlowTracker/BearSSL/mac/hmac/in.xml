@@ -1,0 +1,27 @@
+<functions>
+    <sources>
+        
+    <function>
+        <name>process_key</name>
+        <return>false</return>
+        <public>
+            
+        </public>
+        <secret>
+            <parameter>key</parameter>
+        </secret>
+    </function>
+
+    <function>
+        <name>br_hmac_update</name>
+        <return>false</return>
+        <public>
+            
+        </public>
+        <secret>
+            <parameter>data</parameter>
+        </secret>
+    </function>
+
+    </sources>
+</functions>

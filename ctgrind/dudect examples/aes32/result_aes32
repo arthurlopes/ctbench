@@ -1,0 +1,95 @@
+==7608== Memcheck, a memory error detector
+==7608== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7608== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7608== Command: ./aes32.out
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400F2E: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400F35: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400F5D: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400F64: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400F6C: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400F76: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400F82: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400F89: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400FD4: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400FDB: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400FE7: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x400FF3: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x40100D: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x401014: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x40101C: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== Use of uninitialised value of size 8
+==7608==    at 0x401023: rijndaelEncrypt (in /home/ubuntu/shared/ctgrind_old/aes32.out)
+==7608==    by 0x4007BD: do_one_computation (aes32.c:21)
+==7608==    by 0x4008C5: main (aes32.c:43)
+==7608== 
+==7608== 
+==7608== HEAP SUMMARY:
+==7608==     in use at exit: 0 bytes in 0 blocks
+==7608==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==7608== 
+==7608== All heap blocks were freed -- no leaks are possible
+==7608== 
+==7608== For counts of detected and suppressed errors, rerun with: -v
+==7608== Use --track-origins=yes to see where uninitialised values come from
+==7608== ERROR SUMMARY: 16 errors from 16 contexts (suppressed: 0 from 0)

@@ -1,0 +1,29 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>crypto_scalarmult</name>
+            <return>false</return>
+            <public>
+                <parameter>q</parameter>
+                <parameter>p</parameter>
+            </public>
+            <secret>
+                <parameter>n</parameter>
+            </secret>
+        </function>
+
+        <function>
+            <name>crypto_scalarmult_base</name>
+            <return>false</return>
+            <public>
+                <parameter>q</parameter>
+                <parameter>p</parameter>
+            </public>
+            <secret>
+                <parameter>n</parameter>
+            </secret>
+        </function>
+
+    </sources>
+</functions>

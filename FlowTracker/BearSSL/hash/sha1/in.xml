@@ -1,0 +1,16 @@
+<functions>
+    <sources>
+
+        <function>
+            <name>br_sha1_round</name>
+            <return>false</return>
+            <public>
+                <parameter>val</parameter>
+            </public>
+            <secret>
+                <parameter>buf</parameter>    <!--Data buffer-->
+            </secret>
+        </function>
+
+    </sources>
+</functions>
